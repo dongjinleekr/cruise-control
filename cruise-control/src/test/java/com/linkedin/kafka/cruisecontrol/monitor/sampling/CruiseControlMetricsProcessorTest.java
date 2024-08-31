@@ -347,7 +347,6 @@ public class CruiseControlMetricsProcessorTest {
     // Replication bytes metrics unavailable at topic-partition level
     double partitionReplicationBytesOut = 0.0;
     double allTopicReplicationBytesIn = 2000.0;
-    double allTopicReplicationBytesOut = 2000.0;
     double estimatedCpuUtilPerCore = estimateLeaderCpuUtilPerCore(B0_CPU,
                                                                   allTopicBytesIn,
                                                                   allTopicBytesOut,
